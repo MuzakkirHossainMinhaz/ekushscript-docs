@@ -74,12 +74,12 @@ bolo("Value: " + pi)                  // Output: Value: 3.14
 
 ```ekush
 rakho name = "Ekush"
-bolo("Hello, ${name}!")              // Output: Hello, Ekush!
-bolo("Sum: ${2 + 3}")                // Output: Sum: 5
-bolo("Float: ${3.14159}")            // Output: Float: 3.14159
+bolo("Hello, {name}!")              // Output: Hello, Ekush!
+bolo("Sum: {2 + 3}")                // Output: Sum: 5
+bolo("Float: {3.14159}")            // Output: Float: 3.14159
 ```
 
-- You can embed expressions and variables inside `${...}` in double-quoted strings.
+- You can embed expressions and variables inside `{...}` in double-quoted strings.
 - The expressions are evaluated in the current script context.
 - If the variable is not defined, the placeholder will remain unchanged.
 
